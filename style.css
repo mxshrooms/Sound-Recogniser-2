@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: #b176b1;
+}
+#heading {
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:55px;
+    font-weight:bold;
+}
+li {
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    font-weight:bolder;
+    background-color:#975997;
+    height:30px;
+    width:200px;
+    margin-left:550px;
+    text-align:center;
+}
+#note {
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#orange {
+    margin-top:-150px;
+    margin-bottom:27;
+}
+#blue {
+    width:240;
+}
+#pink {
+    width:190;
+    margin-bottom:10px;
+}
+#red {
+    width:205;
+}
+#startbutton {
+    margin-left:45;
+    border:transparent;
+    height:40;
+    width:100;
+    font-size:20;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+    color:white;
+    background-color: #812c81;
+}

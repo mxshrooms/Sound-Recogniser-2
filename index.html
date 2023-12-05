@@ -1,0 +1,33 @@
+<html>
+    <head>
+       <title>Sound Recogniser</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body>
+        <br>
+        <h1 id="heading">sound recogniser</h1>
+        <br>
+        <h3 id="note">This model is trained to identify the following sounds:</h3>
+        <ul>
+            <li>Background Noise</li>
+            <br>
+            <li>A Bell Ringing</li>
+            <br>
+            <li>Clapping</li>
+            <br>
+            <li>Knocking</li>
+        </ul>
+        <button onclick="start()" id="startbutton">START</button>
+        <br>
+        <img width="200" id="red" src="redstatic.png">
+        <img width="170" id="orange" src="orangestatic.png">
+        <img width="200" id="blue" src="bluestatic.png">
+        <img width="190" id="pink" src="pinkstatic.png">
+        <br>
+        <p style="font-size: 22px;">Sound: <span id="sound"></span></p>
+        <p style="font-size: 22px;">Accuracy: <span id="confidence"></span></p>
+        <script src="main.js"></script>
+    </body>
+</html>
